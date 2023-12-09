@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Loop in HTML using JavaScript</title>
+</head>
+<body>
+  <ul id="myList"></ul>
+
+  <script>
+    const items = ['Apple', 'Orange', 'Banana'];
+    const list = document.getElementById('myList');
+
+    items.forEach(item => {
+      const listItem = document.createElement('li');
+      listItem.textContent = item;
+      list.appendChild(listItem);
+    });
+  </script>
+</body>
+</html>
