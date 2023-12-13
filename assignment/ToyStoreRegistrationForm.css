@@ -1,0 +1,63 @@
+/* ToyStoreRegistrationForm.css */
+
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 99vh;
+    background-image: url("C:\Users\sneha\Downloads\toy.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.registration-form-container {
+  background: linear-gradient(to bottom, #fda4f0, #a84af5);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #129ac0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #040000;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #030e15;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1af016;
+  }
+  
+  
+  
